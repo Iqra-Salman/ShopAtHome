@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hsidden; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .myNavBar{
+  background-color:primary;
+} */
+.card {
+  border-radius: 15px;
+  min-height: 380px;
+  box-shadow: 20px;
+  border: 2px solid rgb(187, 183, 183);
+  /* box-shadow: 2px 2px 20px 0 rgb(210, 207, 207); */
+}
+.mainLayout {
+  min-height: calc(100vh - 120px);
+}
+.adminLayout {
+  min-height: calc(100vh - 155 px);
+}
+.card-img-top {
+  padding: 7px;
+  max-height: 210px;
+  border-radius: 15px;
+}
+.img_DetailPage {
+  height: 68vh;
+}
+.card_button {
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  /* font-weight: 500; */
+  padding: 10px;
+}
+/* .detailPage {
+  height: 80vh;
+} */
+td,
+tr {
+  /* padding: 8px; */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.reviewTableData {
+  text-align: center;
+}
+table {
+  /* height: 60vh; */
+  margin-inline: 10px;
+  width: 48%;
+  border-collapse: collapse;
+}
+td,
+tr {
+  margin-bottom: none;
+}
+.thirdCol {
+  width: 40%;
+  margin-left: 2%;
+}
+.space {
+  padding-left: 60%;
+}
+/* .space1 {
+  padding-left: 40px;
+} */
+.addToCart {
+  border: none;
+  border-radius: 5px;
+}
+@media (max-width: 1280px) {
+  .detailPage {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 15px;
+  }
+  /* table {
+    /* margin-block: 20px; */
+
+  /* width: 70%; */
+}
+*/ tr,
+td {
+  padding-bottom: 20px;
+  /* margin-bottom: 10px; */
+}
+.thirdCol {
+  width: 50%;
+}
+/* .img_DetailPage {
+    width: 70%;
+  } */
+
+#main-layout {
+  min-height: calc(100vh - 112px);
+}
+#auth-layout {
+  height: 100vh;
+}
+
+td,
+th {
+  height: 5px;
+  /* width: 20px; */
+  /* padding-top: 120px; */
+  /* padding-bottom: 80px; */
+  /* text-align: center; */
+}
+.table {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.06), 0 2px 2px 0 rgba(0, 0, 0, 0.06);
+}
+/* tr {
+  tr:nth-child(odd) {
+    background-color: #1b5555;
+  }
+} */
+.list-group {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.showcase{
+  background-image: url(../public/images/banner/shopping-trolley-with-little-snooze.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+/* .showcase .overlay{
+  height: 100%;
+  background-color: rgba(80, 82, 95, 0.75)
+} */
+.landing{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  height: calc(100vh - 78px);
+  margin-left: 2rem;
+}
+.landing .small-heading{
+  font-size: 2rem;
+
+  text-transform: uppercase;
+}
+.landing .large-heading {
+  font-size: 3rem;
+  /* text-transform: uppercase; */
+  font-style: italic;
+}
+.landing .large-heading span {
+  color: rgb(165, 20, 20);
+  font-size: 4rem;
+  font-weight: 800;
+}
+Button{
+  color: rgb(165, 20, 20)
+}
